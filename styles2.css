@@ -1,0 +1,62 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+button{
+    font-weight: bold;
+    background-color:  rgb(173, 216, 230,0.6);
+    height: 50px;
+    width: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 4px;
+    border: 1px solid rgb(212, 212, 212,0.8);
+
+}
+
+td{
+    width: 25%;
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 10px;
+}
+button:active{
+    background-color: rgb(211, 211, 211);
+}
+button:hover{
+    border: 1px solid rgb(182, 180, 180);
+}
+.container{
+    padding:5px 5px 5px 5px;
+    background-color: rgba(211, 211, 211,0.25);
+    backdrop-filter: blur(5px);
+    width: 60%;
+    min-width: 150px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+input{
+    margin: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 8px;
+    outline-color: darkgray;
+    font-size: 1.8em;
+    text-align: end;
+    min-height: 60px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    padding: 10px;
+
+}
+.num{
+    background-color: white;
+}
